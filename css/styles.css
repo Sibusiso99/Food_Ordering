@@ -70,6 +70,7 @@ a:hover{
 
 .btn-primary:hover{
     background-color: black;
+    color: aliceblue;
 }
 h2{
     font-size: 2rem;
@@ -144,3 +145,53 @@ h3{
     margin: 1.5%;
 }
 
+/*
+
+    CSS FOR FOOD-MENU
+
+*/
+.food-menu{
+    background-color: coral;
+    padding: 4% 0;
+}
+.food-menu-box{
+    border: 3px solid black;
+    width: 42%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-description{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-description{
+    font-size: 1rem;
+    color: blue;
+}
+
+/*
+    CSS FOR SOCIAL
+
+*/
+.social ul{
+    list-style: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
