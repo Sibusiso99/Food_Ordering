@@ -17,12 +17,18 @@
 .img-responsive{
     width: 100%;
 }
+.img-curve{
+    border-radius: 15px;
+}
 .text-right{
     text-align: right;
 }
 
 .text-center{
     text-align: center;
+}
+.text-white{
+    color: black;
 }
 
 .clearing{
@@ -68,10 +74,17 @@ a:hover{
 h2{
     font-size: 2rem;
 }
-
+h3{
+    font-size: 1.5rem;
+}
 
 .float-container{
     position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
 }
 
 .Menu{
@@ -125,7 +138,7 @@ h2{
 }
 
 .box-3{
-    border: 1px solid black;
+   
     width: 30%;
     float: left;
     margin: 1.5%;
