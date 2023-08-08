@@ -18,6 +18,10 @@
     text-align: right;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .clearing{
     clear: both;
     float: none;
@@ -55,9 +59,30 @@ a:hover{
 .Menu ul li{
     display: inline;
     padding: 1%;
+    font-weight: bold;
 }
 
 /*.Menu ul li a{
     color: black;
     text-decoration: none;
 }*/
+
+/*
+    CSS for food Search
+
+*/
+
+.food-search{
+    background-image: url(../images/burger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+
+}
