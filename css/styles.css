@@ -9,7 +9,7 @@
     padding: 0 0;
 }
 .container{
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     width: 80%;
     margin: 0 auto;
     padding: 1%;
@@ -41,7 +41,7 @@
 */
 .logo{
     color: red;
-    border:  solid black;
+    /*border:  solid black;*/
     width: 14%;
     font-size: 30px;
     font-weight: bold;
@@ -155,7 +155,7 @@ h3{
     padding: 4% 0;
 }
 .food-menu-box{
-    border: 3px solid black;
+    /*border: 3px solid black;*/
     width: 42%;
     margin: 1%;
     padding: 2%;
@@ -195,4 +195,47 @@ h3{
     display: inline;
     padding: 1%;
     cursor: pointer;
+}
+
+
+/*
+    CSS FOR MOBILE
+
+*/
+
+/*@media only screen and (max-width:768pc){
+   .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+   } 
+   .Menu ul{
+        text-align: center;
+   }
+   .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom:  5%;
+   }
+   .btn{
+    width: 30%;
+   }
+   .box-3{
+        width: 90%;
+        margin: 4% auto;
+   }
+   .categories{
+    padding: 10%;
+   }
+   .food-menu{
+        padding: 20% auto;
+   }
+   .food-menu-box{
+        width: 95%;
+        padding: 5%;
+        margin-bottom: 5%;
+   }
+   .social{
+        padding: 5% 0;
+   }
 }
